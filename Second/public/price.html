@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lombarghini</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header {
+            background-color: #333;
+            height: 60px;
+        }
+        header ul {
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .container .logo-p {
+            font-size: 25px;
+            color: gold;
+        }
+        .container .pages {
+            text-decoration: none;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+        }
+        .container li {
+            display: inline-block;
+            list-style: none;
+        }
+        
+
+        .content #main {
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content #img {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content .content2 {
+            display: flex;
+            margin-top: 35px;
+        }
+        .content .content2 p {
+            position: relative;
+            color: #fff;
+            text-align: center;
+            font-size: 25px;
+            margin-left: 10px;
+        }
+        .content .content2 p span {
+            font-size: 35px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="first-h">
+                <li>
+                    <p class="logo-p">Lomborghini</p>
+                </li>
+            </ul>
+            <ul class="second-h">
+                <li> <a class="pages" href="/">HOME</a> </li>
+                <li> <a class="pages" href="/product">PRODUCT</a> </li>
+                <li> <a class="pages" href="#">PRICE</a></li>
+                <li> <a class="pages" href="/contact">CONTACT</a>  </li>
+            </ul>
+            <ul class="third-h">
+                <li>
+                    <a class="pages" href="/login">Log in</a>
+                </li>
+                <li>
+                    <a class="pages" href="/joinus">Join Us</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div style=" clear: both;"></div>
+    <div class="content">
+        <img id="main" src="https://cdn.motor1.com/images/mgl/OozxwY/0:1003:8000:5993/2024-lamborghini-aventador-successor-rendering.webp">
+        <div class="container">
+            <div class="content2">
+                <img  id="img" src="https://i.pinimg.com/originals/2c/cc/b0/2cccb0c878d89a9d40f8fad25b0b7569.jpg" >
+                <p><span>Ferruccio Lamborghini</span> <br> an Italian manufacturing magnate, founded Automobili <br>Ferruccio Lamborghini S.p.A. in 1963 to compete with Ferrari. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

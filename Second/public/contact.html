@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lombarghini</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header {
+            background-color: #333;
+            height: 60px;
+        }
+        header ul {
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .container .logo-p {
+            font-size: 25px;
+            color: gold;
+        }
+        .container .pages {
+            text-decoration: none;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+        }
+        .container li {
+            display: inline-block;
+            list-style: none;
+        }
+        .section .left {
+            float: left;
+            width: 30%;
+            height: 100vh;
+            background-color: #555;
+        }
+        .section .right {
+            float: right;
+            width: 70%;
+            height: 100vh;
+            background-color: #777;
+        }
+        .section .left p {
+            text-align: center;
+            font-size: 25px;
+            padding: 20px 0;
+            color: #fff;
+        }
+        .section .left img {
+            position: relative;
+            width: 100%;
+            height: 40vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .right .form {
+            width: 800px;
+            height: 500px;
+            background-color: #b8a4a4;
+            border-radius: 20px;
+            margin: auto;
+            text-align: center;
+        }
+
+
+
+     
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="first-h">
+                <li>
+                    <p class="logo-p">Lomborghini</p>
+                </li>
+            </ul>
+            <ul class="second-h">
+                <li> <a class="pages" href="/">HOME</a> </li>
+                <li> <a class="pages" href="/product">PRODUCT</a> </li>
+                <li> <a class="pages" href="/price">PRICE</a></li>
+                <li> <a class="pages" href="#">CONTACT</a>  </li>
+            </ul>
+            <ul class="third-h">
+                <li>
+                    <a class="pages" href="/login">Log in</a>
+                </li>
+                <li>
+                    <a class="pages" href="/joinus">Join Us</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div style=" clear: both;"></div>
+    <section class="section">
+        <div class="left">
+            <img src="https://i.pinimg.com/originals/2c/cc/b0/2cccb0c878d89a9d40f8fad25b0b7569.jpg">
+            <p>FACEBOOK</p>
+            <p>TWITTER</p>
+            <p>TELEGRAM</p>
+            <p>INSTAGRAM</p>
+        </div>
+        <div class="right">
+            <div>
+                <form class="form">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Your Name" name="name" id="name">
+                    <label>Email</label>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
